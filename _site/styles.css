@@ -1,14 +1,13 @@
 .site-header {
-  font-size: 40px;
+  font-size: 20px;
   text-align: center; }
 
-@media screen and (min-device-width: 1200px) {
+@media all and (min-width: 800px) and (min-device-width: 700px) {
   .site-header {
-    font-size: 20px;
+    font-size: 30px;
     text-align: left; } }
 nav {
   display: table;
-  table-layout: fixed;
   width: 100%; }
 
 nav ul {
@@ -20,6 +19,3 @@ nav ul li {
   list-style: none;
   display: table-cell;
   text-align: center; }
-
-nav ul li a {
-  display: block; }
