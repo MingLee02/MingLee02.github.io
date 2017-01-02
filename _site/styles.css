@@ -1,0 +1,25 @@
+.site-header {
+  font-size: 40px;
+  text-align: center; }
+
+@media screen and (min-device-width: 1200px) {
+  .site-header {
+    font-size: 20px;
+    text-align: left; } }
+nav {
+  display: table;
+  table-layout: fixed;
+  width: 100%; }
+
+nav ul {
+  display: table-row;
+  margin: 0;
+  padding: 0; }
+
+nav ul li {
+  list-style: none;
+  display: table-cell;
+  text-align: center; }
+
+nav ul li a {
+  display: block; }
