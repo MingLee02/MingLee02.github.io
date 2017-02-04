@@ -39,9 +39,9 @@ Phaser could be installed via npm but im using bower as i find it easier to link
 You can check out the code <a href="https://github.com/MingLee02/phaser/commit/37c023860a90425247ef240aae7788abd8250b88">here</a> 
 
 Below is a screenshot of the phaser version and the browser can load it.
-<img src="{{ site.url }}/assets/images/finished-phaser-setup.PNG"/>
 
 Thats it for this post.
 
 Thanks for reading.
 
+<img src="{{ site.url }}/assets/images/finished-phaser-setup.PNG"/>
