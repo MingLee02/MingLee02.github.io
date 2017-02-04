@@ -25,13 +25,14 @@ Part one - Setup
 So my framework of choice is Phasor.  Why Phasor you ask. Its free and the site looks awesome.
 
 Im using these packages for development.
-	npm.json
-		grunt-open
-    	grunt
-    	grunt-contrib-watch
-    	grunt-contrib-connect
-    bower
-    	phaser
+
+        npm.json:
+            grunt
+            grunt-open
+            grunt-contrib-watch
+            grunt-contrib-connect
+        bower:
+            phaser
 
 grunt connect is used to run a local server. I could also use apache or Lamp (if windows Wamp would be the alt). Grunt connect is the easiest.
 Phaser could be installed via npm but im using bower as i find it easier to link in the index file.
