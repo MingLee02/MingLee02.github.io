@@ -1,6 +1,6 @@
 ---
 layout: main
-bodyid: posts
+bodyid: blog
 title: Blog posts
 ---
 

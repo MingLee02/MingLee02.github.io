@@ -1,8 +1,8 @@
 <nav>
     <ul class="main-menu">
-        <li><a href="/">About</a></li>
-        <li><a href='/portfolio/'>Portfolio</a></li>
-        <li><a href='/blog/'>Blog</a></li>
-        <li><a href="/">Contact</a></li>
+        <li><a href="/about/" {% if page.bodyid == "about" %}class="active"{% endif %}'>About</a></li>
+        <li><a href='/portfolio/' {% if page.bodyid == "portfolio" %}class="active"{% endif %}'>Portfolio</a></li>
+        <li><a href='/blog/' {% if page.bodyid == "blog" %}class="active"{% endif %}>Blog</a></li>
+        <li><a href="/" {% if page.bodyid == "contact" %}class="active"{% endif %}'>Contact</a></li>
     </ul>
 </nav>
