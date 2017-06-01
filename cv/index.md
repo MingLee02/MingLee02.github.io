@@ -4,7 +4,7 @@ bodyid: cv
 title: My  curriculum vitae
 ---
 
-Here you can view or download my Cv.
+Here you can view or download my CV.
 
 <ul>
 	<li><a href="{{ site.url }}/assets/cv/MingLee-CV.pdf">Download Pdf version</a></li>
