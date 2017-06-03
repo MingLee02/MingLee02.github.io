@@ -15,9 +15,9 @@ title: My programming projects.
 <div class="project-description">
 	<p>Github Link: <a href="https://github.com/MingLee02/MingLee02.github.io">https://github.com/MingLee02/MingLee02.github.io</a></p>
 	<p>Status: in progress</p>
-	<p>Next phase: Make responsive</p>
+	<p>Next phase: Make it responsive</p>
 	<u><p>Description</p></u>
-	This is a my portfolio/blog site.
+	This is my portfolio site.
 </div>
 
 <p class="project-heading">Space Invaders Clone</p>
