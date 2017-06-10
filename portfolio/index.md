@@ -3,7 +3,11 @@ layout: main
 bodyid: portfolio
 title: My programming projects.
 ---
+<script type="text/javascript">
+    {% include scripts/portfolio.js %}
+</script>
 
+Filter list by <button onClick="showAll()">All</button> <button onClick="filterWork('personal')">Personal</button> <button onClick="filterWork('work')">Work</button>
 
 <div id="personal">
 	<b>Personal Projects</b>
