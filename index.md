@@ -1,11 +1,19 @@
 ---
-layout: main
-bodyid: about
-title: About Me
+layout: intro
+bodyid: home
+title: Introduction
 ---
 
-Hi, I'm Ming Lee
+<h1 class="intro">
+    <span class="name">Ming Lee</span>
+    <span class="title">Full Stack Developer</span>
+</h1>
 
-I am a Python/Javascript developer at <a href="https://incuna.com/">Incuna</a>. I've been programming professionally for 3+ years now. In my off time I am learning Chen Tai Chi and improving my programming knowledge and skills.
+Hello I am currently working at Incuna.
 
-If you want to know more about my qualifications please view my <a href='/cv/'>CV</a>
+Creating apps with awesome user experience and clean, functional code.
+
+<ul class="intro-list">
+    <li><a href="/about/">About</a></li>
+    <li><a href='/work/'>Work</a></li>
+</ul>
