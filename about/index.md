@@ -12,5 +12,5 @@ In terms of frameworks, I have worked extensively with Angular, Django and Djang
 
 I have experience of working in an agile environment. The code i write is heavily tested both manually and automated. I contribute to peer review. I use Project Management and version control tools as part of my daily workflow. I contribute to projects from inception all the way to deployment.
 
-
+<br/>
 If you want to know more about my qualifications please view my <a href='/cv/'>CV</a>
