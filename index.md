@@ -8,3 +8,12 @@ title: Introduction
     <span class="name">Ming Lee</span>
     <span class="title">Full Stack Developer</span>
 </h1>
+
+Hello I am currently working at Incuna.
+
+Creating apps with awesome user experience and clean, functional code.
+
+<ul class="intro-list">
+    <li><a href="/about/">About</a></li>
+    <li><a href='/work/'>Work</a></li>
+</ul>
