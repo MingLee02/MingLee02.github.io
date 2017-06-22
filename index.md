@@ -11,7 +11,7 @@ title: Introduction
 
 Hello I am currently working at Incuna.
 
-Creating apps with awesome user experience and clean, functional code.
+Creating apps with awesome user experience, clean, and functional code.
 
 <ul class="intro-list">
     <li><a href="/about/">About</a></li>
