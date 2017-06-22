@@ -4,9 +4,9 @@ bodyid: about
 title: About Me
 ---
 
-I have over three years commercial experience working as a Developer, mainly focussing on front-end technologies including JavaScript.
+I have over three years commercial experience working as a developer, mainly focusing on front-end technologies including JavaScript.
 
-I have two years experience working with python.
+I have two years experience working with Python.
 
 In terms of frameworks, I have worked extensively with Angular, Django and Django REST framework.
 

@@ -4,7 +4,7 @@ bodyid: personal
 title: My personal projects.
 ---
  
-<p class="project-heading">Space Invaders Clone</p>
+<strong>Space Invaders Clone</strong>
 <ul class="skill-list">
 	<li>Javascript</li>
 	<li>Phaser</li>
