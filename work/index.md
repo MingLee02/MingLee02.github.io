@@ -10,8 +10,10 @@ title: My work contributions.
 	<li>Angular-bootstrap</li>
 </ul>
 <div class="project-description">
-	<p><a href="https://github.com/incuna/angular-user-management/pull/8/files">Delete User Directive</a></p>
-	This was I think my first ever directive, with a delete request.
+	<p><a href="https://github.com/incuna/angular-user-management/pull/8/files">Delete User Function</a></p>
+	
+	This piece of work is esentially a directive that allows a user to delete his/her account.
+	The directive calls a method on a service which sends a DELETE request to a specified url.
 </div>
 
 <p><strong>Angular external link interceptor</strong></p>
@@ -22,7 +24,7 @@ title: My work contributions.
 	<li>Grunt</li>
 </ul>
 <div class="project-description">
-	<p><a href="https://github.com/incuna/angular-external-link-interceptor/pull/20">Split code into seperate files</a></p>
+	<p><a href="https://github.com/incuna/angular-external-link-interceptor/pull/20">Split code into separate files</a></p>
 	<p><a href="https://github.com/incuna/angular-external-link-interceptor/pull/21">Add Linting</a></p>
 	<p><a href="https://github.com/incuna/angular-external-link-interceptor/blob/master/Gruntfile.js">My first grunt file</a></p>
 </div>

@@ -9,9 +9,9 @@ title: Introduction
     <span class="title">Full Stack Developer</span>
 </h1>
 
-Hello I am currently working at Incuna.
+Hello, I am currently working at Incuna.
 
-Creating apps with awesome user experience, clean, and functional code.
+I create apps with awesome user experience, clean, and functional code.
 
 <ul class="intro-list">
     <li><a href="/about/">About</a></li>
