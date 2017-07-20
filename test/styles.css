@@ -1,0 +1,130 @@
+html,
+body {
+  background: #F0F0F0;
+  margin: 0;
+  height: 100%; }
+
+h2 {
+  font-size: 36px;
+  color: #A78F52; }
+
+p {
+  font-size: 16px;
+  color: #2D2E2D;
+  line-height: 25px;
+  width: 451px;
+  margin-top: -26px; }
+
+.content-container {
+  background: #FFF;
+  min-height: 100%; }
+
+.text-wrapper {
+  width: 582px;
+  float: right;
+  margin-top: -224px;
+  position: relative;
+  display: inline-block;
+  right: -59px;
+  padding-left: 19px; }
+  .text-wrapper.first h2 {
+    color: #D2D2D2; }
+  .text-wrapper.first p {
+    color: #A5A5A5; }
+  .text-wrapper.first button {
+    border: 2px solid #E8E8E8;
+    color: #D2D2D2; }
+  .text-wrapper.last h2,
+  .text-wrapper.last p {
+    opacity: 0.5; }
+
+.wrapper {
+  padding: 50px 0;
+  margin: auto;
+  max-width: 930px;
+  text-align: left; }
+
+.date {
+  font-size: 38px;
+  width: 138px;
+  text-align: center;
+  margin-left: 32px;
+  padding-top: 56px;
+  color: white; }
+
+.circle1,
+.circle2,
+.circle3 {
+  height: 200px;
+  width: 200px;
+  background: #D2D2D2;
+  border-radius: 100%;
+  font-size: 38px;
+  text-align: center;
+  margin-left: 135px; }
+
+.circle2,
+.circle3 {
+  background: #A88F54; }
+
+.circle3 {
+  opacity: 0.5; }
+
+.break,
+.break2,
+.break3 {
+  border-left: 1px solid #D2D2D2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 233px;
+  height: 50px; }
+
+.break2,
+.break3 {
+  border-left: 1px solid #BDA97B; }
+
+.break3 {
+  opacity: 0.5s; }
+
+ul {
+  font-size: 38px;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+    margin-top: 175px; }
+  ul li {
+    display: inline-block;
+    margin-left: -10px; }
+    ul li a {
+      background: #909090;
+      color: #FFF;
+      display: block;
+      height: 75px;
+      line-height: 95px;
+      text-decoration: none;
+      width: 485px;
+      height: 90px; }
+    ul li a:hover {
+      color: #FF9B12; }
+  ul .active {
+    color: #A78F52;
+    background: #FFF; }
+
+button {
+  margin-top: 5px;
+  width: 220px;
+  height: 50px;
+  background-color: #FFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border: 2px solid #D3C7A8;
+  color: #A78F52;
+  cursor: pointer; }
+
+/*# sourceMappingURL=styles.css.map */
