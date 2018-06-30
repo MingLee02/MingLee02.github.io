@@ -1,3 +1,10 @@
+<input class="mobile-menu" id="burger" type="checkbox" />
+<label class="mobile-menu" for="burger">
+	<span></span>
+	<span></span>
+	<span></span>
+</label>
+
 <nav>
     <ul class="main-menu">
     	<li><a href="/">Home</a></li>
@@ -8,4 +15,13 @@
        <!--  <li><a href='/blog/' {% if page.bodyid == "blog" %}class="active"{% endif %}>Blog</a></li> -->
         <li><a href="/contact/" {% if page.bodyid == "contact" %}class="active"{% endif %}>Contact</a></li>
     </ul>
+    <ul class="mobile-menu">
+		<li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href='/work/'>Work Contributions</a></li>
+        <li><a href='/personal/'>Personal Projects</a></li>
+        <li><a href='/cv/'>CV</a></li>
+       <!--  <li><a href='/blog/' {% if page.bodyid == "blog" %}class="active"{% endif %}>Blog</a></li> -->
+        <li><a href="/contact/">Contact</a></li>
+	</ul>  
 </nav>

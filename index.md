@@ -6,14 +6,9 @@ title: Introduction
 
 <h1 class="intro">
     <span class="name">Ming Lee</span>
-    <span class="title">Full Stack Developer</span>
+    <span>Full Stack Developer</span>
+    <span class="summary">Django V1 / Angular JS</span>
 </h1>
-
-Hello, I am currently working at Research Exchange.
-
-As well as processing provider research, I am heavily involved with refactoring, and testing code.
-
-<!-- I create apps with awesome user experience, clean, and functional code. -->
 
 <ul class="intro-list">
     <li><a href="/about/">About</a></li>
