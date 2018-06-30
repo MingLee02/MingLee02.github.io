@@ -4,9 +4,9 @@ bodyid: cv
 title: My curriculum vitae
 ---
 
-Download CV
+<!-- Download CV
 <a href="{{ site.url }}/assets/cv/MingLee-CV.pdf">Pdf version</a> / 
-<a href="{{ site.url }}/assets/cv/MingLee-CV.docx">Docx version</a>
+<a href="{{ site.url }}/assets/cv/MingLee-CV.docx">Docx version</a> -->
 
 
 <div class='cv'>
@@ -19,7 +19,7 @@ Download CV
 				<li>JavaScript / jQuery</li>
 				<li>Angular JS</li>
 				<li>Python 2/3</li>
-				<li>Django 2</li>
+				<li>Django 1</li>
 				<li>Django Rest Framework</li>
 				<li>Version Control ( GIT )</li>
 				<li>HTML5</li>
@@ -38,6 +38,7 @@ Download CV
 				<li>Karma</li>
 				<li>Grunt</li>
 				<li>eslint</li>
+				<li>Wagtail v1</li>
 			</ul>
 		</div>
 	</div>
@@ -51,8 +52,10 @@ Download CV
 			<br>
 			Junior Python Developer
 			<p class='job-duties'>
-				Processing provider research reports onto our platform using Python 2.
+				Processing provider research onto our platform using Python 2.
 				Expanding Angular JS test coverage on our main platform using Karma.
+				Our application displayed the pdf research to users as a series of images, I replaced this
+				with Mozilla's Pdf.js, which improves the reading experience.
 			</p>
 		</div>
 		<div class="job">
@@ -60,11 +63,10 @@ Download CV
 			<br>
 			February 2015 – September 2017
 			<br>
-			Junior Developer - Developer - Full Stack Developerer
+			Junior Developer - Developer - Full Stack Developer
 			<p class='job-duties'>
-				Developed multiple front-end web applications with Javascript using Angular/Backbone framework, for a wide range of clients. Writing tests in Karma and Protractor. Developed user interfaces with Html5 and Sass. Multi browser and device testing. Where possible real hardware is used otherwise Browserstack is the main platform for cross browser/device testing.
-				Developed multiple back-end applications using Python 3 and Django 1, with Django rest framework. Using test driven development with Django tests.
-				Experience in developing applications using Wagtail as a cms.
+				Developed multiple front-end patient support web applications with Javascript using Angular JS for a wide range of clients. The apps were tested when possible with real hardware otherwise Browserstack is the main platform for cross browser/device testing. As well as physically testing the app I wrote unit tests in Karma to catch bugs.
+				Developed multiple back-end applications using Python 3 and Django 1, with Django rest framework. The apps were developed with a Test Driven Development style with the tests done with python asserts and Djangos Testcase. Also played around with wagtail v1 and used it for a few simple websites.
 				Using 3rd party Django packages and extending/overriding certain parts for our own consumption.
 				Clients include: Abbvie, Teva and AstraZeneca.
 			</p>
@@ -78,7 +80,7 @@ Download CV
 			<p class='job-duties'>
 				Migrated our code from Subversion to Git.
 				Debugged Objective C code, using Xcode and built ipas for the client.
-				Developed a travel and expenses app for a big pharmaceutical client. The app has SAP integration. This is a Cordova application using JavaScript,  Ember JS framework, Handlebars and objective C. For this app I wrote a test script and was responsible for testing the app before an Ipa was made. Developed a product ordering demo for Lego.
+				Developed a travel and expenses app for a big pharmaceutical client. The app has SAP integration. This is a Cordova application using JavaScript,  Ember JS framework, Handlebars and objective C. For this app I wrote a manual test script and was responsible for testing the app before an Ipa was made. Developed a product ordering demo for Lego.
 				Clients include: Johnson & Johnson, GSK and Lego.
 			</p>
 		</div>
