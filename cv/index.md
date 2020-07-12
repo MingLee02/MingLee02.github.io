@@ -19,10 +19,11 @@ title: My curriculum vitae
 				<li>JavaScript / jQuery</li>
 				<li>Angular JS</li>
 				<li>Python 2/3</li>
-				<li>Django 1</li>
+				<li>Django 1/2/3</li>
 				<li>Django Rest Framework</li>
 				<li>Version Control ( GIT )</li>
 				<li>HTML5</li>
+				<li>Plotly JS</li>
 			</ul>
 		</div>
 		<div id="right">
@@ -39,12 +40,29 @@ title: My curriculum vitae
 				<li>Grunt</li>
 				<li>eslint</li>
 				<li>Wagtail v1</li>
+				<li>Pyramid</li>
+				<li>Flask</li>
+				<li>Plotly Python</li>
 			</ul>
 		</div>
 	</div>
 
+	<div>Technologies (Hobby)</div>
+	<ul class='skills'>
+		<li>C++</li>
+		<li>Unreal engine 4</li>
+		<li>Vue 2</li>
+		<li>React</li>
+	</ul>
+
 	<div class="wrapper">
 		<div class='section-heading'>Work Experience</div>
+		<div class="job">
+			<u>Anthesis</u>
+			<br>
+			September 2017 - Present
+			<br>
+		</div>
 		<div class="job">
 			<u>Research Exchange</u>
 			<br>
@@ -54,7 +72,9 @@ title: My curriculum vitae
 			<p class='job-duties'>
 				Processing provider research onto our platform using Python 2.
 				Expanding Angular JS test coverage on our main platform using Karma.
-				Our application displayed the pdf research to users as a series of images, I replaced this
+				Expanding Python test coverage.
+				Finding bottlenecks and speeding up the application. One such bottleneck was the fact that
+				our application displayed the pdf research to users as a series of images, I replaced this
 				with Mozilla's Pdf.js, which improves the reading experience.
 			</p>
 		</div>
