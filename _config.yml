@@ -33,3 +33,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 port: 9000
+
+kramdown:
+  input: GFM
+  hard_wrap: false

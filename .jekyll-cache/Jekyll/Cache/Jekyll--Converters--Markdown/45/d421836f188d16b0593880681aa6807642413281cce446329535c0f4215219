@@ -1,0 +1,10 @@
+I"<div id="main">
+    <article id="about">
+        <h2 class="major">About</h2>
+        <p>I have around <span id="yearsWork"></span> years commercial experience working as a developer, my main tech stack is mysql - Django/python - Javascript/Jquery.</p>
+        In terms of frameworks, I have worked extensively with Angular JS v1, Django and Django REST framework.
+        I have experience of working in an agile environment. The code I write is heavily tested both manually and automated. I contribute to peer review. I use Project Management and version control tools as part of my daily workflow. I can contribute to projects from inception all the way to deployment.
+        If you want to know more about my qualifications please view my <a href="/cv/">CV</a>
+    </article>
+</div>
+:ET
