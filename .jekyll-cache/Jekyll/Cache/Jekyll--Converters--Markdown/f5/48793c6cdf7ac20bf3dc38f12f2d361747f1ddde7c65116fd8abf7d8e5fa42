@@ -1,15 +1,10 @@
----
-layout: base
-bodyid: about
-title: About Me
----
-
-<div id="main">
+I"¦<div id="main">
     <article id="about">
         <h2 class="major">About</h2>
         <p>I have around <span id="yearsWork"></span> years commercial experience working as a developer, my main tech stack is Django/Python as a backend with Javascript/Jquery on the frontend. For databases I have experience using both Mysql and Psql</p>
         <p>In terms of frontend development, I have worked extensively with Angular JS v1 and touched have apon Vue and React in a non professional capacity.</p>
-       <p>I have experience of working in an agile environment. The code I write is heavily tested both manually and automated. I contribute to peer review. I use Project Management and version control tools as part of my daily workflow. I can contribute to projects from inception all the way to deployment.</p>
-       <p> If you want to know more about my qualifications please view my <a href='/cv/'>CV</a></p>
+       <p>I have experience of working in an agile environment. The code I write is heavily tested both manually and automated. I contribute to peer review. I use Project Management and version c ontrol tools as part of my daily workflow. I can contribute to projects from inception all the way to deployment.</p>
+       <p> If you want to know more about my qualifications please view my <a href="/cv/">CV</a></p>
     </article>
 </div>
+:ET
