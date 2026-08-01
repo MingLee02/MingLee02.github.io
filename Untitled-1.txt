@@ -1,0 +1,156 @@
+
+  <aside class="panel skills-panel" id="skills">
+    <h3 class="panel-title">// TECH STACK</h3>
+    <ul class="skill-list">
+      <li><span>Python / Django</span><em>92%</em><div class="skill-bar"><i style="width:92%"></i></div></li>
+      <li><span>Angular / TypeScript</span><em>90%</em><div class="skill-bar"><i style="width:90%"></i></div></li>
+      <li><span>JavaScript / ES6+</span><em>88%</em><div class="skill-bar"><i style="width:88%"></i></div></li>
+      <li><span>PostgreSQL</span><em>85%</em><div class="skill-bar"><i style="width:85%"></i></div></li>
+      <li><span>Docker</span><em>80%</em><div class="skill-bar"><i style="width:80%"></i></div></li>
+      <li><span>AWS</span><em>75%</em><div class="skill-bar"><i style="width:75%"></i></div></li>
+      <li><span>Tailwind CSS</span><em>90%</em><div class="skill-bar"><i style="width:90%"></i></div></li>
+      <li><span>Redis</span><em>70%</em><div class="skill-bar"><i style="width:70%"></i></div></li>
+    </ul>
+  </aside>
+
+  <aside class="panel github-panel">
+    <h3 class="panel-title">// GITHUB ACTIVITY</h3>
+    <div class="bars" id="gh-bars" aria-hidden="true"></div>
+    <div class="bars-labels">
+      <span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span>
+    </div>
+    <div class="gh-stats">
+      <div><b>125</b><span>CONTRIBUTIONS</span></div>
+      <div><b>23</b><span>REPOS</span></div>
+    </div>
+    <a class="btn btn-outline btn-block" href="https://github.com/" target="_blank" rel="noopener">VIEW PROFILE <span>⌥</span></a>
+  </aside>
+</section>
+
+<!-- ============ FEATURED PROJECTS ============ -->
+<section class="projects panel" id="projects">
+  <div class="section-head">
+    <h2 class="panel-title">// FEATURED PROJECTS</h2>
+    <a href="#" class="link-more">VIEW ALL PROJECTS »</a>
+  </div>
+
+  <div class="project-grid">
+
+    <article class="project-card">
+      <span class="status-tag status-live"><i></i>LIVE</span>
+      <div class="project-icon icon-angular">
+        <svg viewBox="0 0 24 24" width="30" height="30"><path fill="currentColor" d="m12 1.7 10.5 3.8-1.6 13.7L12 23.4 3.1 19.2 1.5 5.5 12 1.7Zm0 2.5L4 7v.1l1.1 9.7L12 20l6.9-3.2L20 7.1V7l-8-2.8Zm0 3 4.8 11.6h-1.9L14 15.7H10l-.9 2.9H7.2L12 7.2Zm0 3.5-1.4 4.1h2.8L12 10.7Z"/></svg>
+      </div>
+      <h3>Angular User Management</h3>
+      <p>A complete user management module with role-based access and advanced permissions.</p>
+      <div class="tags">
+        <span>Angular</span><span>TypeScript</span><span>NGXS</span><span>Tailwind</span>
+      </div>
+      <a href="#" class="link-more small">VIEW PROJECT <span>&gt;</span></a>
+    </article>
+
+    <article class="project-card">
+      <span class="status-tag status-live"><i></i>LIVE</span>
+      <div class="project-icon icon-django">
+        <svg viewBox="0 0 24 24" width="26" height="26"><text x="0" y="19" font-family="Georgia, serif" font-weight="700" font-size="20" fill="currentColor">dj</text></svg>
+      </div>
+      <h3>Django REST API</h3>
+      <p>RESTful API built with Django REST Framework with authentication, permissions and throttling.</p>
+      <div class="tags">
+        <span>Django</span><span>DRF</span><span>PostgreSQL</span><span>JWT</span>
+      </div>
+      <a href="#" class="link-more small">VIEW PROJECT <span>&gt;</span></a>
+    </article>
+
+    <article class="project-card">
+      <span class="status-tag status-beta"><i></i>BETA</span>
+      <div class="project-icon icon-stack">
+        <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M12 2 2 7l10 5 10-5-10-5Zm0 8.2L2 15.2l10 5 10-5-10-5Z"/></svg>
+      </div>
+      <h3>Full Stack Task Manager</h3>
+      <p>Task management application with Django backend and Angular frontend.</p>
+      <div class="tags">
+        <span>Django</span><span>Angular</span><span>PostgreSQL</span><span>Tailwind</span>
+      </div>
+      <a href="#" class="link-more small">VIEW PROJECT <span>&gt;</span></a>
+    </article>
+
+    <article class="project-card">
+      <span class="status-tag status-dev"><i></i>DEV</span>
+      <div class="project-icon icon-code">
+        <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="m8.6 16.6-4.6-4.6 4.6-4.6L7.2 6l-6 6 6 6 1.4-1.4Zm6.8 0L20 12l-4.6-4.6L16.8 6l6 6-6 6-1.4-1.4Z"/></svg>
+      </div>
+      <h3>Django Model Logging</h3>
+      <p>Custom Django app for logging model changes with user tracking and history.</p>
+      <div class="tags">
+        <span>Django</span><span>Python</span><span>Audit Log</span><span>Middleware</span>
+      </div>
+      <a href="#" class="link-more small">VIEW PROJECT <span>&gt;</span></a>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ BOTTOM ROW ============ -->
+<section class="bottom-row" id="experience">
+
+  <aside class="panel activity-panel">
+    <h3 class="panel-title">// RECENT ACTIVITY</h3>
+    <ul class="activity-list">
+      <li><i class="dot dot-blue"></i><span>Updated README.md</span><em>2m ago</em></li>
+      <li><i class="dot dot-red"></i><span>Fix: User permission bug</span><em>1h ago</em></li>
+      <li><i class="dot dot-blue"></i><span>Add JWT authentication</span><em>3h ago</em></li>
+      <li><i class="dot dot-purple"></i><span>Update project dependency</span><em>5h ago</em></li>
+      <li><i class="dot dot-blue"></i><span>Refactor API views</span><em>1d ago</em></li>
+    </ul>
+    <a href="#" class="link-more small">VIEW ALL ACTIVITY <span>&gt;</span></a>
+  </aside>
+
+  <div class="globe-panel" id="about">
+    <div class="globe-stat">
+      <span>PROJECTS</span>
+      <b>08</b>
+    </div>
+    <div class="globe-stat">
+      <span>EXPERIENCE</span>
+      <b>5+</b>
+      <em>YEARS</em>
+    </div>
+
+    <div class="globe" aria-hidden="true">
+      <svg viewBox="0 0 200 200">
+        <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-opacity=".35"/>
+        <ellipse cx="100" cy="100" rx="80" ry="30" fill="none" stroke="currentColor" stroke-opacity=".35"/>
+        <ellipse cx="100" cy="100" rx="45" ry="80" fill="none" stroke="currentColor" stroke-opacity=".25"/>
+        <ellipse cx="100" cy="100" rx="80" ry="80" fill="none" stroke="currentColor" stroke-opacity=".15" stroke-dasharray="2 4"/>
+        <line x1="20" y1="100" x2="180" y2="100" stroke="currentColor" stroke-opacity=".2"/>
+        <circle cx="100" cy="100" r="80" fill="url(#globeGlow)"/>
+        <defs>
+          <radialGradient id="globeGlow" cx="35%" cy="35%" r="70%">
+            <stop offset="0%" stop-color="#0d3a4a"/>
+            <stop offset="100%" stop-color="#020608"/>
+          </radialGradient>
+        </defs>
+      </svg>
+      <span class="globe-pin" style="top:38%;left:44%"></span>
+    </div>
+
+    <div class="globe-stat">
+      <span>TECHNOLOGIES</span>
+      <b>12+</b>
+    </div>
+    <div class="globe-stat">
+      <span>HAPPY CLIENTS</span>
+      <b>10+</b>
+    </div>
+  </div>
+
+  <aside class="panel contact-panel" id="contact">
+    <h3 class="panel-title">// CURRENT STATUS</h3>
+    <p class="available-badge">AVAILABLE FOR<br>NEW PROJECTS</p>
+    <p class="available-copy">Let's build something amazing together.</p>
+    <a href="mailto:hello@mingleedev.com" class="btn btn-solid btn-block">GET IN TOUCH <span>➤</span></a>
+    <div class="radar-mini" aria-hidden="true">
+      <div class="radar-mini-sweep"></div>
+    </div>
+  </aside>

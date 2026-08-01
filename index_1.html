@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ming Lee // Full Stack Developer</title>
+<meta name="description" content="Ming Lee — Full Stack Developer building scalable, high-performance web applications with Django, Angular and modern technologies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="brand">
+    <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+      <polygon points="24,3 44,14 44,34 24,45 4,34 4,14" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <text x="24" y="30" text-anchor="middle" font-family="Orbitron" font-weight="800" font-size="16" fill="currentColor">ML</text>
+    </svg>
+    <div class="brand-text">
+      <span class="brand-name">MING LEE</span>
+      <span class="brand-role">// FULL STACK DEVELOPER</span>
+    </div>
+  </div>
+
+  <div class="header-actions">
+    <a class="icon-link" href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.94c.58.1.79-.25.79-.56v-2.17c-3.2.7-3.87-1.35-3.87-1.35-.53-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.79 0c2.2-1.5 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.42.36.78 1.06.78 2.15v3.18c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+    </a>
+    <a class="icon-link" href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM.5 8.98h4.96V23H.5V8.98ZM8.5 8.98h4.75v1.92h.07c.66-1.2 2.27-2.47 4.68-2.47 5 0 5.93 3.16 5.93 7.27V23h-4.96v-6.44c0-1.54-.03-3.51-2.14-3.51-2.15 0-2.48 1.65-2.48 3.4V23H8.5V8.98Z"/></svg>
+    </a>
+    <a class="icon-link" href="mailto:hello@mingleedev.com" aria-label="Email">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm19.4 2H2.6l9.4 7.05L21.4 6ZM3 8.24V18h18V8.24l-9 6.76-9-6.76Z"/></svg>
+    </a>
+    <a class="btn btn-outline" href="assets/Ming-Lee-CV.pdf" download>
+      DOWNLOAD CV
+      <svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M12 3v10.6l3.6-3.6L17 11.4 12 16.4 7 11.4l1.4-1.4 3.6 3.6V3h2ZM5 19h14v2H5v-2Z"/></svg>
+    </a>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <aside class="panel nav-panel">
+    <nav class="side-nav" aria-label="Section navigation">
+      <a href="#home" class="side-nav-item is-active" data-target="home">
+        <span class="side-nav-icon">⌂</span>01_HOME
+      </a>
+      <a href="#about" class="side-nav-item" data-target="about">
+        <span class="side-nav-icon">☺</span>02_ABOUT
+      </a>
+      <a href="#projects" class="side-nav-item" data-target="projects">
+        <span class="side-nav-icon">▦</span>03_PROJECTS
+      </a>
+      <a href="#skills" class="side-nav-item" data-target="skills">
+        <span class="side-nav-icon">◈</span>04_SKILLS
+      </a>
+      <a href="#experience" class="side-nav-item" data-target="experience">
+        <span class="side-nav-icon">▣</span>05_EXPERIENCE
+      </a>
+      <a href="#contact" class="side-nav-item" data-target="contact">
+        <span class="side-nav-icon">✉</span>06_CONTACT
+      </a>
+    </nav>
+  </aside>
+
+  <aside class="panel status-panel">
+    <h3 class="panel-title">// SYSTEM STATUS</h3>
+    <div class="sparkline" aria-hidden="true">
+      <svg viewBox="0 0 200 50" preserveAspectRatio="none">
+        <polyline points="0,35 15,32 30,38 45,20 60,28 75,10 90,22 105,15 120,30 135,18 150,25 165,12 180,20 200,16" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    </div>
+    <ul class="status-list">
+      <li><span>CPU USAGE</span><b id="stat-cpu">18%</b></li>
+      <li><span>MEMORY</span><b id="stat-mem">42%</b></li>
+      <li><span>DISK SPACE</span><b>67%</b></li>
+    </ul>
+    <div class="status-bar"><span style="width:67%"></span></div>
+
+    <div class="status-sub">
+      <span class="label">LOCATION</span>
+      <p>LONDON, UK</p>
+    </div>
+    <div class="status-sub">
+      <span class="label">TIME</span>
+      <p id="local-time">--:--:--</p>
+      <p class="date-line" id="local-date">--- -- ---- ----</p>
+    </div>
+  </aside>
+
+  <div class="hero-center">
+    <span class="pill pill-online"><i></i>SYSTEM ONLINE</span>
+
+    <div class="radar" aria-hidden="true">
+      <span class="deg deg-0">360</span>
+      <span class="deg deg-90">90</span>
+      <span class="deg deg-180">180</span>
+      <span class="deg deg-270">270</span>
+      <div class="radar-ring ring-1"></div>
+      <div class="radar-ring ring-2"></div>
+      <div class="radar-ring ring-3"></div>
+      <div class="radar-sweep"></div>
+      <div class="radar-ticks"></div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>MING LEE</h1>
+        <p class="role">FULL STACK DEVELOPER</p>
+        <p class="tagline">I build scalable, high-performance web applications<br>with Django, Angular and modern technologies.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-solid">EXPLORE WORK <span>&gt;</span></a>
+          <a href="#contact" class="btn btn-ghost">CONTACT ME</a>
+        </div>
+      </div>
+    </div>
+
+    <button class="scroll-cue" id="scroll-cue" aria-label="Scroll to explore">
+      <span>SCROLL TO EXPLORE</span>
+      <svg viewBox="0 0 16 24" width="16" height="24"><rect x="1" y="1" width="14" height="22" rx="7" fill="none" stroke="currentColor"/><circle class="scroll-dot" cx="8" cy="7" r="2" fill="currentColor"/></svg>
+    </button>
+  </div>
+
+  <aside class="panel skills-panel" id="skills">
+    <h3 class="panel-title">// TECH STACK</h3>
+    <ul class="skill-list">
+      <li><span>Python / Django</span><em>92%</em><div class="skill-bar"><i style="width:92%"></i></div></li>
+      <li><span>Angular / TypeScript</span><em>90%</em><div class="skill-bar"><i style="width:90%"></i></div></li>
+      <li><span>JavaScript / ES6+</span><em>88%</em><div class="skill-bar"><i style="width:88%"></i></div></li>
+      <li><span>PostgreSQL</span><em>85%</em><div class="skill-bar"><i style="width:85%"></i></div></li>
+      <li><span>Docker</span><em>80%</em><div class="skill-bar"><i style="width:80%"></i></div></li>
+      <li><span>AWS</span><em>75%</em><div class="skill-bar"><i style="width:75%"></i></div></li>
+      <li><span>Tailwind CSS</span><em>90%</em><div class="skill-bar"><i style="width:90%"></i></div></li>
+      <li><span>Redis</span><em>70%</em><div class="skill-bar"><i style="width:70%"></i></div></li>
+    </ul>
+  </aside>
+
+  <aside class="panel github-panel">
+    <h3 class="panel-title">// GITHUB ACTIVITY</h3>
+    <div class="bars" id="gh-bars" aria-hidden="true"></div>
+    <div class="bars-labels">
+      <span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span>
+    </div>
+    <div class="gh-stats">
+      <div><b>125</b><span>CONTRIBUTIONS</span></div>
+      <div><b>23</b><span>REPOS</span></div>
+    </div>
+    <a class="btn btn-outline btn-block" href="https://github.com/" target="_blank" rel="noopener">VIEW PROFILE <span>⌥</span></a>
+  </aside>
+</section>
+
+<!-- ============ FEATURED PROJECTS ============ -->
+<section class="projects panel" id="projects">
+  <div class="section-head">
+    <h2 class="panel-title">// FEATURED PROJECTS</h2>
+    <a href="#" class="link-more">VIEW ALL PROJECTS »</a>
+  </div>
+
+  <div class="project-grid">
+
+    <article class="project-card">
+      <span class="status-tag status-live"><i></i>LIVE</span>
+      <div class="project-icon icon-angular">
+        <svg viewBox="0 0 24 24" width="30" height="30"><path fill="currentColor" d="m12 1.7 10.5 3.8-1.6 13.7L12 23.4 3.1 19.2 1.5 5.5 12 1.7Zm0 2.5L4 7v.1l1.1 9.7L12 20l6.9-3.2L20 7.1V7l-8-2.8Zm0 3 4.8 11.6h-1.9L14 15.7H10l-.9 2.9H7.2L12 7.2Zm0 3.5-1.4 4.1h2.8L12 10.7Z"/></svg>
+      </div>
+      <h3>Angular User Management</h3>
+      <p>A complete user management module with role-based access and advanced permissions.</p>
+      <div class="tags">
+        <span>Angular</span><span>TypeScript</span><span>NGXS</span><span>Tailwind</span>
+      </div>
+      <a href="#" class="link-more small">VIEW PROJECT <span>&gt;</span></a>
+    </article>
+
+    <article class="project-card">
+      <span class="status-tag status-live"><i></i>LIVE</span>
+      <div class="project-icon icon-django">
+        <svg viewBox="0 0 24 24" width="26" height="26"><text x="0" y="19" font-family="Georgia, serif" font-weight="700" font-size="20" fill="currentColor">dj</text></svg>
+      </div>
+      <h3>Django REST API</h3>
+      <p>RESTful API built with Django REST Framework with authentication, permissions and throttling.</p>
+      <div class="tags">
+        <span>Django</span><span>DRF</span><span>PostgreSQL</span><span>JWT</span>
+      </div>
+      <a href="#" class="link-more small">VIEW PROJECT <span>&gt;</span></a>
+    </article>
+
+    <article class="project-card">
+      <span class="status-tag status-beta"><i></i>BETA</span>
+      <div class="project-icon icon-stack">
+        <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M12 2 2 7l10 5 10-5-10-5Zm0 8.2L2 15.2l10 5 10-5-10-5Z"/></svg>
+      </div>
+      <h3>Full Stack Task Manager</h3>
+      <p>Task management application with Django backend and Angular frontend.</p>
+      <div class="tags">
+        <span>Django</span><span>Angular</span><span>PostgreSQL</span><span>Tailwind</span>
+      </div>
+      <a href="#" class="link-more small">VIEW PROJECT <span>&gt;</span></a>
+    </article>
+
+    <article class="project-card">
+      <span class="status-tag status-dev"><i></i>DEV</span>
+      <div class="project-icon icon-code">
+        <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="m8.6 16.6-4.6-4.6 4.6-4.6L7.2 6l-6 6 6 6 1.4-1.4Zm6.8 0L20 12l-4.6-4.6L16.8 6l6 6-6 6-1.4-1.4Z"/></svg>
+      </div>
+      <h3>Django Model Logging</h3>
+      <p>Custom Django app for logging model changes with user tracking and history.</p>
+      <div class="tags">
+        <span>Django</span><span>Python</span><span>Audit Log</span><span>Middleware</span>
+      </div>
+      <a href="#" class="link-more small">VIEW PROJECT <span>&gt;</span></a>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ BOTTOM ROW ============ -->
+<section class="bottom-row" id="experience">
+
+  <aside class="panel activity-panel">
+    <h3 class="panel-title">// RECENT ACTIVITY</h3>
+    <ul class="activity-list">
+      <li><i class="dot dot-blue"></i><span>Updated README.md</span><em>2m ago</em></li>
+      <li><i class="dot dot-red"></i><span>Fix: User permission bug</span><em>1h ago</em></li>
+      <li><i class="dot dot-blue"></i><span>Add JWT authentication</span><em>3h ago</em></li>
+      <li><i class="dot dot-purple"></i><span>Update project dependency</span><em>5h ago</em></li>
+      <li><i class="dot dot-blue"></i><span>Refactor API views</span><em>1d ago</em></li>
+    </ul>
+    <a href="#" class="link-more small">VIEW ALL ACTIVITY <span>&gt;</span></a>
+  </aside>
+
+  <div class="globe-panel" id="about">
+    <div class="globe-stat">
+      <span>PROJECTS</span>
+      <b>08</b>
+    </div>
+    <div class="globe-stat">
+      <span>EXPERIENCE</span>
+      <b>5+</b>
+      <em>YEARS</em>
+    </div>
+
+    <div class="globe" aria-hidden="true">
+      <svg viewBox="0 0 200 200">
+        <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-opacity=".35"/>
+        <ellipse cx="100" cy="100" rx="80" ry="30" fill="none" stroke="currentColor" stroke-opacity=".35"/>
+        <ellipse cx="100" cy="100" rx="45" ry="80" fill="none" stroke="currentColor" stroke-opacity=".25"/>
+        <ellipse cx="100" cy="100" rx="80" ry="80" fill="none" stroke="currentColor" stroke-opacity=".15" stroke-dasharray="2 4"/>
+        <line x1="20" y1="100" x2="180" y2="100" stroke="currentColor" stroke-opacity=".2"/>
+        <circle cx="100" cy="100" r="80" fill="url(#globeGlow)"/>
+        <defs>
+          <radialGradient id="globeGlow" cx="35%" cy="35%" r="70%">
+            <stop offset="0%" stop-color="#0d3a4a"/>
+            <stop offset="100%" stop-color="#020608"/>
+          </radialGradient>
+        </defs>
+      </svg>
+      <span class="globe-pin" style="top:38%;left:44%"></span>
+    </div>
+
+    <div class="globe-stat">
+      <span>TECHNOLOGIES</span>
+      <b>12+</b>
+    </div>
+    <div class="globe-stat">
+      <span>HAPPY CLIENTS</span>
+      <b>10+</b>
+    </div>
+  </div>
+
+  <aside class="panel contact-panel" id="contact">
+    <h3 class="panel-title">// CURRENT STATUS</h3>
+    <p class="available-badge">AVAILABLE FOR<br>NEW PROJECTS</p>
+    <p class="available-copy">Let's build something amazing together.</p>
+    <a href="mailto:hello@mingleedev.com" class="btn btn-solid btn-block">GET IN TOUCH <span>➤</span></a>
+    <div class="radar-mini" aria-hidden="true">
+      <div class="radar-mini-sweep"></div>
+    </div>
+  </aside>
+
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <span>51.5074° N, 0.1278° W</span>
+  <span class="footer-dashes" aria-hidden="true">////////////////</span>
+  <span class="footer-dashes" aria-hidden="true">////////////////</span>
+  <span id="footer-year">ML_2026</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
