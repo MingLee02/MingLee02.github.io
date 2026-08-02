@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+
     <div class="grid-overlay" aria-hidden="true"></div>
 
+    <!-- ============ HEADER ============ -->
     <header class="site-header">
       <div class="brand">
         <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
@@ -21,7 +23,7 @@
         </svg>
         <div class="brand-text">
           <span class="brand-name">MING LEE</span>
-          <span class="brand-role">// FULL STACK DEVELOPER</span>
+          <span class="brand-role">// SOFTWARE ENGINEER</span>
         </div>
       </div>
 
@@ -43,77 +45,208 @@
     </header>
 
     <main>
-      <!-- ============ HERO ============ -->
-      <section class="hero" id="home">
-        <aside class="panel nav-panel">
-          <nav class="side-nav" aria-label="Section navigation">
-            <a href="#home" class="side-nav-item is-active" data-target="home">
-              <span class="side-nav-icon">⌂</span>01_HOME
-            </a>
-            <a href="#about" class="side-nav-item" data-target="about">
-              <span class="side-nav-icon">☺</span>02_ABOUT
-            </a>
-            <a href="#projects" class="side-nav-item" data-target="projects">
-              <span class="side-nav-icon">▦</span>03_PROJECTS
-            </a>
-            <a href="#skills" class="side-nav-item" data-target="skills">
-              <span class="side-nav-icon">◈</span>04_SKILLS
-            </a>
-            <a href="#experience" class="side-nav-item" data-target="experience">
-              <span class="side-nav-icon">▣</span>05_EXPERIENCE
-            </a>
-            <a href="#contact" class="side-nav-item" data-target="contact">
-              <span class="side-nav-icon">✉</span>06_CONTACT
-            </a>
-          </nav>
-        </aside>
-        <aside class="panel status-panel">
-          <h3 class="panel-title">// SYSTEM STATUS</h3>
-          <div class="sparkline" aria-hidden="true">
-            <svg viewBox="0 0 200 50" preserveAspectRatio="none">
-              <polyline points="0,35 15,32 30,38 45,20 60,28 75,10 90,22 105,15 120,30 135,18 150,25 165,12 180,20 200,16" fill="none" stroke="currentColor" stroke-width="1.5"/>
-            </svg>
-          </div>
 
-          <div class="status-sub">
-            <span class="label">LOCATION</span>
-            <p>LONDON, UK</p>
-          </div>
-          <div class="status-sub">
-            <span class="label">TIME</span>
-            <p id="local-time">--:--:--</p>
-            <p class="date-line" id="local-date">--- -- ---- ----</p>
-          </div>
-        </aside>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <aside class="panel nav-panel">
+        <nav class="side-nav" aria-label="Section navigation">
+          <a href="#home" class="side-nav-item is-active" data-target="home">
+            <span class="side-nav-icon">⌂</span>01 HOME
+          </a>
+          <a href="#about" class="side-nav-item" data-target="about">
+            <span class="side-nav-icon">☺</span>02 ABOUT
+          </a>
+          <a href="#projects" class="side-nav-item" data-target="projects">
+            <span class="side-nav-icon">▦</span>03 PROJECTS
+          </a>
+          <a href="#skills" class="side-nav-item" data-target="skills">
+            <span class="side-nav-icon">◈</span>04 SKILLS
+          </a>
+          <a href="#experience" class="side-nav-item" data-target="experience">
+            <span class="side-nav-icon">▣</span>05 EXPERIENCE
+          </a>
+          <a href="#contact" class="side-nav-item" data-target="contact">
+            <span class="side-nav-icon">✉</span>06 CONTACT
+          </a>
+        </nav>
+      </aside>
 
-        <div class="hero-center">
-          <span class="pill pill-online"><i></i>SYSTEM ONLINE</span>
+      <div class="hero-center">
+        <span class="pill pill-online"><i></i>SYSTEM ONLINE</span>
 
-          <div class="radar" aria-hidden="true">
-            <span class="deg deg-0">360</span>
-            <span class="deg deg-90">90</span>
-            <span class="deg deg-180">180</span>
-            <span class="deg deg-270">270</span>
-            <div class="radar-ring ring-1"></div>
-            <div class="radar-ring ring-2"></div>
-            <div class="radar-ring ring-3"></div>
-            <div class="radar-sweep"></div>
-            <div class="radar-ticks"></div>
+        <div class="radar" aria-hidden="true">
+          <span class="deg deg-0">360</span>
+          <span class="deg deg-90">90</span>
+          <span class="deg deg-180">180</span>
+          <span class="deg deg-270">270</span>
+          <svg class="radar-svg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="radarGlow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="3" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+            </defs>
+            <circle cx="300" cy="300" r="296" fill="none" stroke="currentColor" stroke-width="1" opacity="0.18"/>
+            <circle cx="300" cy="300" r="258" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="1 5" opacity="0.35"/>
+            <circle cx="300" cy="300" r="218" fill="none" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+            <circle cx="300" cy="300" r="178" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="2 6" opacity="0.3"/>
+            <circle cx="300" cy="300" r="140" fill="none" stroke="currentColor" stroke-width="1" opacity="0.22"/>
+            <g class="radar-ticks-svg">
+                <line x1="300.0" y1="18.0" x2="300.0" y2="8.0" stroke="currentColor" stroke-width="1.4" opacity="0.55"/>
+                <line x1="319.7" y1="18.7" x2="320.4" y2="8.7" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="339.2" y1="20.7" x2="340.6" y2="10.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="358.6" y1="24.2" x2="360.7" y2="14.4" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="377.7" y1="28.9" x2="380.5" y2="19.3" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="396.4" y1="35.0" x2="399.9" y2="25.6" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="414.7" y1="42.4" x2="418.8" y2="33.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="432.4" y1="51.0" x2="437.1" y2="42.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="449.4" y1="60.9" x2="454.7" y2="52.4" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="465.8" y1="71.9" x2="471.6" y2="63.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="481.3" y1="84.0" x2="487.7" y2="76.3" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="495.9" y1="97.1" x2="502.8" y2="90.0" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="509.6" y1="111.3" x2="517.0" y2="104.6" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="522.2" y1="126.4" x2="530.1" y2="120.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="533.8" y1="142.3" x2="542.1" y2="136.7" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="544.2" y1="159.0" x2="552.9" y2="154.0" stroke="currentColor" stroke-width="1.4" opacity="0.55"/>
+                <line x1="553.5" y1="176.4" x2="562.4" y2="172.0" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="561.5" y1="194.4" x2="570.7" y2="190.6" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="568.2" y1="212.9" x2="577.7" y2="209.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="573.6" y1="231.8" x2="583.3" y2="229.4" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="577.7" y1="251.0" x2="587.6" y2="249.3" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="580.5" y1="270.5" x2="590.4" y2="269.5" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="581.8" y1="290.2" x2="591.8" y2="289.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="581.8" y1="309.8" x2="591.8" y2="310.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="580.5" y1="329.5" x2="590.4" y2="330.5" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="577.7" y1="349.0" x2="587.6" y2="350.7" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="573.6" y1="368.2" x2="583.3" y2="370.6" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="568.2" y1="387.1" x2="577.7" y2="390.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="561.5" y1="405.6" x2="570.7" y2="409.4" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="553.5" y1="423.6" x2="562.4" y2="428.0" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="544.2" y1="441.0" x2="552.9" y2="446.0" stroke="currentColor" stroke-width="1.4" opacity="0.55"/>
+                <line x1="533.8" y1="457.7" x2="542.1" y2="463.3" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="522.2" y1="473.6" x2="530.1" y2="479.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="509.6" y1="488.7" x2="517.0" y2="495.4" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="495.9" y1="502.9" x2="502.8" y2="510.0" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="481.3" y1="516.0" x2="487.7" y2="523.7" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="465.8" y1="528.1" x2="471.6" y2="536.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="449.4" y1="539.1" x2="454.7" y2="547.6" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="432.4" y1="549.0" x2="437.1" y2="557.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="414.7" y1="557.6" x2="418.8" y2="566.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="396.4" y1="565.0" x2="399.9" y2="574.4" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="377.7" y1="571.1" x2="380.5" y2="580.7" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="358.6" y1="575.8" x2="360.7" y2="585.6" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="339.2" y1="579.3" x2="340.6" y2="589.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="319.7" y1="581.3" x2="320.4" y2="591.3" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="300.0" y1="582.0" x2="300.0" y2="592.0" stroke="currentColor" stroke-width="1.4" opacity="0.55"/>
+                <line x1="280.3" y1="581.3" x2="279.6" y2="591.3" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="260.8" y1="579.3" x2="259.4" y2="589.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="241.4" y1="575.8" x2="239.3" y2="585.6" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="222.3" y1="571.1" x2="219.5" y2="580.7" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="203.6" y1="565.0" x2="200.1" y2="574.4" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="185.3" y1="557.6" x2="181.2" y2="566.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="167.6" y1="549.0" x2="162.9" y2="557.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="150.6" y1="539.1" x2="145.3" y2="547.6" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="134.2" y1="528.1" x2="128.4" y2="536.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="118.7" y1="516.0" x2="112.3" y2="523.7" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="104.1" y1="502.9" x2="97.2" y2="510.0" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="90.4" y1="488.7" x2="83.0" y2="495.4" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="77.8" y1="473.6" x2="69.9" y2="479.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="66.2" y1="457.7" x2="57.9" y2="463.3" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="55.8" y1="441.0" x2="47.1" y2="446.0" stroke="currentColor" stroke-width="1.4" opacity="0.55"/>
+                <line x1="46.5" y1="423.6" x2="37.6" y2="428.0" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="38.5" y1="405.6" x2="29.3" y2="409.4" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="31.8" y1="387.1" x2="22.3" y2="390.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="26.4" y1="368.2" x2="16.7" y2="370.6" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="22.3" y1="349.0" x2="12.4" y2="350.7" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="19.5" y1="329.5" x2="9.6" y2="330.5" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="18.2" y1="309.8" x2="8.2" y2="310.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="18.2" y1="290.2" x2="8.2" y2="289.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="19.5" y1="270.5" x2="9.6" y2="269.5" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="22.3" y1="251.0" x2="12.4" y2="249.3" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="26.4" y1="231.8" x2="16.7" y2="229.4" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="31.8" y1="212.9" x2="22.3" y2="209.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="38.5" y1="194.4" x2="29.3" y2="190.6" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="46.5" y1="176.4" x2="37.6" y2="172.0" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="55.8" y1="159.0" x2="47.1" y2="154.0" stroke="currentColor" stroke-width="1.4" opacity="0.55"/>
+                <line x1="66.2" y1="142.3" x2="57.9" y2="136.7" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="77.8" y1="126.4" x2="69.9" y2="120.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="90.4" y1="111.3" x2="83.0" y2="104.6" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="104.1" y1="97.1" x2="97.2" y2="90.0" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="118.7" y1="84.0" x2="112.3" y2="76.3" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="134.2" y1="71.9" x2="128.4" y2="63.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="150.6" y1="60.9" x2="145.3" y2="52.4" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="167.6" y1="51.0" x2="162.9" y2="42.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="185.3" y1="42.4" x2="181.2" y2="33.2" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="203.6" y1="35.0" x2="200.1" y2="25.6" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="222.3" y1="28.9" x2="219.5" y2="19.3" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="241.4" y1="24.2" x2="239.3" y2="14.4" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="260.8" y1="20.7" x2="259.4" y2="10.8" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+                <line x1="280.3" y1="18.7" x2="279.6" y2="8.7" stroke="currentColor" stroke-width="0.8" opacity="0.22"/>
+            </g>
+            <g class="radar-arcs" filter="url(#radarGlow)">
+                <path d="M 344.8 45.9 A 258 258 0 0 1 511.3 152.0" fill="none" stroke="currentColor" stroke-width="2" opacity="0.55" class="radar-arc"/>
+                <path d="M 523.4 429.0 A 258 258 0 0 1 429.0 523.4" fill="none" stroke="currentColor" stroke-width="2" opacity="0.55" class="radar-arc"/>
+                <path d="M 191.0 533.8 A 258 258 0 0 1 88.7 448.0" fill="none" stroke="currentColor" stroke-width="2" opacity="0.55" class="radar-arc"/>
+                <path d="M 88.7 152.0 A 258 258 0 0 1 211.8 57.6" fill="none" stroke="currentColor" stroke-width="2" opacity="0.55" class="radar-arc"/>
+                <path d="M 488.8 191.0 A 218 218 0 0 1 517.2 319.0" fill="none" stroke="currentColor" stroke-width="2" opacity="0.55" class="radar-arc"/>
+                <path d="M 85.3 337.9 A 218 218 0 0 1 95.1 225.4" fill="none" stroke="currentColor" stroke-width="2" opacity="0.55" class="radar-arc"/>
+                <path d="M 239.1 467.3 A 178 178 0 0 1 132.7 360.9" fill="none" stroke="currentColor" stroke-width="2" opacity="0.55" class="radar-arc"/>
+                <path d="M 346.1 128.1 A 178 178 0 0 1 425.9 174.1" fill="none" stroke="currentColor" stroke-width="2" opacity="0.55" class="radar-arc"/>
+            </g>
+          </svg>
+          <div class="radar-sweep"></div>
 
-            <div class="hero-copy">
-              <p class="eyebrow">HELLO, I'M</p>
-              <h1>MING LEE</h1>
-              <p class="role">FULL STACK DEVELOPER</p>
-              <p class="tagline">I build scalable, high-performance web applications<br>with Django, Angular and modern technologies.</p>
-              <div class="hero-actions">
-                <a href="#projects" class="btn btn-solid">EXPLORE WORK <span>&gt;</span></a>
-                <a href="#contact" class="btn btn-ghost">CONTACT ME</a>
-              </div>
+          <div class="hero-copy">
+            <p class="eyebrow">HELLO, I'M</p>
+            <h1>MING LEE</h1>
+            <p class="role">SOFTWARE ENGINEER</p>
+            <p class="tagline">I build scalable, high-performance web applications<br>with Django, Angular and modern technologies.</p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-solid">EXPLORE WORK <span>&gt;</span></a>
+              <a href="#contact" class="btn btn-ghost">CONTACT ME</a>
             </div>
           </div>
         </div>
-        
-      </section>
+      </div>
+
+      <aside class="panel skills-panel" id="skills">
+        <h3 class="panel-title">// TECH STACK</h3>
+        <ul class="skill-list">
+          <li><span>Python / Django</span><em>92%</em><div class="skill-bar"><i style="width:92%"></i></div></li>
+          <li><span>Angular / TypeScript</span><em>90%</em><div class="skill-bar"><i style="width:90%"></i></div></li>
+          <li><span>JavaScript / ES6+</span><em>88%</em><div class="skill-bar"><i style="width:88%"></i></div></li>
+          <li><span>PostgreSQL</span><em>85%</em><div class="skill-bar"><i style="width:85%"></i></div></li>
+          <li><span>Docker</span><em>80%</em><div class="skill-bar"><i style="width:80%"></i></div></li>
+          <li><span>AWS</span><em>75%</em><div class="skill-bar"><i style="width:75%"></i></div></li>
+          <li><span>Tailwind CSS</span><em>90%</em><div class="skill-bar"><i style="width:90%"></i></div></li>
+          <li><span>Redis</span><em>70%</em><div class="skill-bar"><i style="width:70%"></i></div></li>
+        </ul>
+      </aside>
+
+      <aside class="panel status-panel">
+        <h3 class="panel-title">// SYSTEM STATUS</h3>
+        <div class="sparkline" aria-hidden="true">
+          <svg viewBox="0 0 200 50" preserveAspectRatio="none">
+            <polyline points="0,35 15,32 30,38 45,20 60,28 75,10 90,22 105,15 120,30 135,18 150,25 165,12 180,20 200,16" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </div>
+
+        <div class="status-bar"><span style="width:67%"></span></div>
+
+        <div class="status-sub">
+          <span class="label">LOCATION</span>
+          <p>OXFORD, UK</p>
+        </div>
+        <div class="status-sub">
+          <span class="label">TIME</span>
+          <p id="local-time">--:--:--</p>
+          <p class="date-line" id="local-date">--- -- ---- ----</p>
+        </div>
+      </aside>
+    </section>
     </main>
 
     <footer class="site-footer">
