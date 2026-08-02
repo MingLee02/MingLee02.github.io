@@ -19,59 +19,6 @@ function updateClock(){
 updateClock();
 setInterval(updateClock, 1000);
 
-/* ---------- Subtle "system status" jitter ---------- */
-function jitterStats(){
-  const cpu = document.getElementById('stat-cpu');
-  const mem = document.getElementById('stat-mem');
-  if (cpu) cpu.textContent = (14 + Math.floor(Math.random() * 10)) + '%';
-  if (mem) mem.textContent = (36 + Math.floor(Math.random() * 12)) + '%';
-}
-setInterval(jitterStats, 3500);
-
-/* ---------- GitHub activity bars ---------- */
-(function buildGithubBars(){
-  const container = document.getElementById('gh-bars');
-  if (!container) return;
-  const heights = [30, 55, 40, 70, 90, 60, 35]; // Mon..Sun, relative %
-  heights.forEach(h => {
-    const bar = document.createElement('i');
-    bar.style.height = h + '%';
-    container.appendChild(bar);
-  });
-})();
-
-/* ---------- Active section highlighting in side nav ---------- */
-(function sectionSpy(){
-  const navItems = Array.from(document.querySelectorAll('.side-nav-item'));
-  const sections = navItems
-    .map(item => document.getElementById(item.dataset.target))
-    .filter(Boolean);
-
-  if (!('IntersectionObserver' in window) || sections.length === 0) return;
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const id = entry.target.id;
-        navItems.forEach(item => {
-          item.classList.toggle('is-active', item.dataset.target === id);
-        });
-      }
-    });
-  }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
-
-  sections.forEach(s => observer.observe(s));
-})();
-
-/* ---------- Scroll-to-explore button ---------- */
-(function scrollCue(){
-  const cue = document.getElementById('scroll-cue');
-  if (!cue) return;
-  cue.addEventListener('click', () => {
-    const target = document.getElementById('projects');
-    if (target) target.scrollIntoView({ behavior: 'smooth' });
-  });
-})();
 
 /* ---------- Footer year tag ---------- */
 (function footerYear(){
